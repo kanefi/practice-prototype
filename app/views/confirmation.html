@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Confirmation page example
+{% endblock %}
+
+{% block content %}
+<div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      alpha
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <div class="govuk-panel govuk-panel--confirmation">
+        <h1 class="govuk-panel__title">Timer set</h1>
+        <div class="govuk-panel__body">
+          Your link
+          <p><a href="https://bit.ly/HDJ2123F">https://bit.ly/HDJ2123F</a></p>
+          <br><strong>https://bit.ly/HDJ2123F</strong>
+        </div>
+      </div>
+
+      <p>
+        We have sent you a confirmation email - something to consider.
+      </p>
+
+      <h2 class="govuk-heading-m">What happens next</h2>
+      <p>Once you click on the link the timer will start.</p>
+      <p><a href="https://www.gov.uk/service-manual/user-centred-design/resources/patterns/feedback-pages.html">What did you think of this service?</a> (takes 30 seconds)</p>
+
+
+    </div>
+  </div>
+
+{% endblock %}
